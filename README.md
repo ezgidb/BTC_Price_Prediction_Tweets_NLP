@@ -1,9 +1,13 @@
 # BTC Price Prediction with Tweets' Sentiment Analysis
-BtcUsdt Price Prediction Based on Twitter Messages Sentiment Analysis Model Development
-Objective:
+- BtcUsdt Price Prediction Based on Twitter Messages Sentiment Analysis Model Development
 
-BTC price prediction based on tweets' sentimental scores and develop trade strategies
-Twitter Dataset : https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets?select=Bitcoin_tweets_dataset_2.csv Btc Historical data : Binance API.
+## Objective:
+ - BTC price prediction based on tweets' sentimental scores and develop trade strategies
+
+## Data:
+**Twitter Dataset :** https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets?select=Bitcoin_tweets_dataset_2.csv 
+
+**BTCUSDT Hourly Historical Data :** Binance API (* Binance_Scraper.ipynb)
 
 ## Methodology:
 ### 1. Preprocessing : Cleaning & Text Normalization for NLP:
@@ -55,7 +59,7 @@ Twitter Dataset : https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweet
 ### 6. Processed Final Data for Machine Learning:
 Timeseries DataFrame with selected features Processed data is trained with random forest regression model and cross validated with Random Grid Search and Grid Search methodologies for tuning.
 
-## Methodology:
+- ### Methodology:
 
 ### 1. Random Forest Estimator
     - Multiple Feature
