@@ -73,13 +73,14 @@ Timeseries DataFrame with selected features Processed data is trained with rando
 ## Conclusion : 
 After evaluating with different paramaters, accuracy rates didn't increas significantly. On the other hand, when same dataframe is trained based on only "sentiment_score" feature, gives much more accuracy rate.
 
-### Model                   Accuracy
+| **Model**  | **Accuracy** |
+| ------------- | ------------- |
+| Full data simple RFG  | %86.651112  |
+| Full data RFG + RB  | %86.687147  |
+| Full data RFG+RB+GS  | %86.704498  |
+| Single Feature RFG  | %95.930713  |
+| Single Feature RFG+RB  | %95.935596  |
 
-Full data simple RFG        86.651112
-Full data RFG + RB          86.687147
-Full data RFG+RB+GS         86.704498
-Single Feature RFG          95.930713
-Single Feature RFG+RB       95.935596
 
 ## Further Study :
 
