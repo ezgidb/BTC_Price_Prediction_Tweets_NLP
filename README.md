@@ -5,9 +5,11 @@
  - BTC price prediction based on tweets' sentimental scores and develop trade strategies
 
 ## Data:
-**Twitter Dataset :** https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets?select=Bitcoin_tweets_dataset_2.csv 
+**Twitter Dataset :** 
+ - btc_1h_20210205_20210624_full.rar : https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets?select=Bitcoin_tweets_dataset_2.csv 
 
-**BTCUSDT Hourly Historical Data :** Binance API (* Binance_Scraper.ipynb)
+**BTCUSDT Hourly Historical Data :** 
+ - Binance API : Binance_Scraper.ipynb
 
 ## Methodology:
 ### 1. Preprocessing : Cleaning & Text Normalization for NLP:
